@@ -1,65 +1,62 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
-    background-color: rgb(175, 175, 196);
-    display: flex;
-    place-items: center;
-    height: 100vh;
+  background-color: rgb(175, 175, 196);
+  display: flex;
+  place-items: center;
+  height: 100vh;
 }
-button{
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    border: none;
-    width: 150px;
-    height: 25px;
-    border-radius: 6px;
-    background-color: rgb(211, 48, 48);
+button {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  border: none;
+  width: 150px;
+  height: 25px;
+  border-radius: 6px;
+  background-color: rgb(211, 48, 48);
 }
-button a{
-    text-decoration: none;
-    padding: 15px;
-    color: white;
+button a {
+  text-decoration: none;
+  padding: 15px;
+  color: white;
 }
 main {
-    display: grid;
-    grid-template-areas: 
-    'a a a a b b'
-    'a a a a b b'
-    'c c c d d d'
-    'c c c e e e'
-    ;    
-    gap: 8px;
-    width: 50%;
-    margin: auto;
-    grid-template-rows: 105px 40px;
- }
-main div {
-    padding: 2em;
-    text-align: center;
-
+  display: grid;
+  grid-template-areas:
+    "a a a a b b"
+    "a a a a b b"
+    "c c c d d d"
+    "c c c e e e";
+  gap: 8px;
+  width: 50%;
+  margin: auto;
+  grid-template-rows: 105px 40px;
 }
-.item-1{
-    background-color: rgb(211, 48, 48);
-    grid-area: a;
+main div {
+  padding: 2em;
+  text-align: center;
+}
+.item-1 {
+  background-color: rgb(211, 48, 48);
+  grid-area: a;
 }
 .item-2 {
-    background-color: rgb(245, 120, 120);
-    grid-area: b; 
+  background-color: rgb(245, 120, 120);
+  grid-area: b;
 }
 .item-3 {
-    background-color: rgb(190, 139, 139);
-    grid-area: c;
+  background-color: rgb(190, 139, 139);
+  grid-area: c;
 }
 .item-4 {
-    background-color: rgb(206, 190, 190);
-    grid-area: d;
+  background-color: rgb(206, 190, 190);
+  grid-area: d;
 }
 .item-5 {
-    background-color: rgb(245, 238, 238);
-    grid-area: e;
+  background-color: rgb(245, 238, 238);
+  grid-area: e;
 }
- 
