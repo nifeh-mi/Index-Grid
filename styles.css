@@ -4,18 +4,19 @@
     box-sizing: border-box;
 }
 body {
-    background-color: hsl(0, 0%, 95%);
-    width: 1440px;
+    background-color: hsl(0, 71%, 97%);
+    /* width: 1440px; */
 }
 main {
     width: 50%;
     margin: auto;
-    /* padding: 11.5px 20px 11.5px 20px; */
+    padding: 11.5px 20px 11.5px 20px;
     justify-content: center;
     align-items: center;
     height: 100vh;
     display: flex; 
 }
+/* Styling for the first card */
 .sedan {
     background-color: hsl(31, 77%, 52%);
     padding: 2em;
@@ -42,6 +43,10 @@ main {
     background-color: hsl(0, 0%, 95%);
     margin-top: 10px;
 }
+.sedan button a{
+    color:hsl(31, 77%, 52%)
+}
+/* Styling for the second card */
 .suvs {
     background-color: hsl(184, 100%, 22%);
     padding: 2em;
@@ -66,6 +71,10 @@ main {
     background-color: hsl(0, 0%, 95%);
     margin-top: 10px;
 }
+.suvs button a{
+    color: hsl(184, 100%, 22%);
+}
+/* Styling fo rthe third card */
 .luxury {
     background-color:  hsl(179, 100%, 13%);
     padding: 2em;
@@ -92,8 +101,27 @@ main {
     background-color: hsl(0, 0%, 95%);
     margin-top: 10px;
 }
-button {
+.luxury button a{
+    color:hsl(179, 100%, 13%)
+}
+button a {
     text-decoration: none;
     padding: 5px;
     margin: auto;
+}
+/* Styling for the button at the top of the page */
+.button{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    border: none;
+    width: 150px;
+    height: 25px;
+    border-radius: 6px;
+    background-color: hsl(184, 100%, 22%) ;
+}
+.button a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
 }
